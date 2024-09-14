@@ -10,7 +10,7 @@
 
 ### 4. [Problem definition](./pages/problem-definition.md)
 
-### 5. [Website preview](https://mihailscirba.github.io/E-COMMERCE-Prototype/)
+### 5. [Website preview](https://mihailscirba.github.io/E-COMMERCE-Prototype/index.html)
 
 ### 6. [Conclusion](./pages/conclusion.md)
 
