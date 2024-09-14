@@ -29,7 +29,7 @@ for (let key in localStorage) {
         `
         block.querySelector('.amount-btns .decrease').addEventListener('click', () => {
             if (amount == 1) {
-                alert('Cantitate nu poate fi mai mica de 1')
+                alert('Amount cannot be less than 1')
             } else {
                 amount -= 1
                 finalSum -= product.price.final
@@ -40,7 +40,7 @@ for (let key in localStorage) {
                 total = finalSum + delivery
                 receipt.innerHTML = `
                     <h3>Subtotal:</h3> <span>${finalSum} $</span>
-                    <h3>Livrare:</h3> <span>${delivery} $</span>
+                    <h3>Delivering:</h3> <span>${delivery} $</span>
                     <h2>Total:</h2> <span>${total} $</span>
                 `
             }
@@ -56,7 +56,7 @@ for (let key in localStorage) {
             total = finalSum + delivery
             receipt.innerHTML = `
                 <h3>Subtotal:</h3> <span>${finalSum} $</span>
-                <h3>Livrare:</h3> <span>${delivery} $</span>
+                <h3>Delivering:</h3> <span>${delivery} $</span>
                 <h2>Total:</h2> <span>${total} $</span>
             `
         })
@@ -72,7 +72,7 @@ delivery = parseInt(finalSum * 0.1);
 total = finalSum + delivery
 receipt.innerHTML = `
     <h3>Subtotal:</h3> <span>${finalSum} $</span>
-    <h3>Livrare:</h3> <span>${delivery} $</span>
+    <h3>Delivering:</h3> <span>${delivery} $</span>
     <h2>Total:</h2> <span>${total} $</span>
 `
 container.appendChild(receipt)
