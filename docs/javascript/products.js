@@ -1,6 +1,7 @@
 let products = {
     0: {
-        image: '/docs/images/index/gamepad.png',
+        image: './images/index/gamepad.png',
+        imageCart: '../images/index/gamepad.png',
         name: 'havit hv-g92 gamepad',
         rating: 4.7,
         cartBtn: null,
@@ -12,7 +13,8 @@ let products = {
         stock: '(88)'
     },
     1: {
-        image: '/docs/images/index/keyboard.png',
+        image: './images/index/keyboard.png',
+        imageCart: '../images/index/keyboard.png',
         name: 'ak-900 wired keyboard',
         rating: 3.5,
         cartBtn: null,
@@ -24,7 +26,8 @@ let products = {
         stock: '(75)'
     },
     2: {
-        image: '/docs/images/index/monitor.png',
+        image: './images/index/monitor.png',
+        imageCart: '../images/index/monitor.png',
         name: 'ips lcd gaming monitor',
         rating: 5,
         cartBtn: null,
@@ -36,7 +39,8 @@ let products = {
         stock: '(99)'
     },
     3: {
-        image: '/docs/images/index/chair.png',
+        image: './images/index/chair.png',
+        imageCart: '../images/index/chair.png',
         name: 's-series comfort chair',
         rating: 4.5,
         cartBtn: null,
@@ -48,7 +52,8 @@ let products = {
         stock: '(92)'
     },
     4: {
-        image: '/docs/images/index/bear.png',
+        image: './images/index/bear.png',
+        imageCart: '../images/index/bear.png',
         name: 'Breed Dry Dog Food',
         rating: 3,
         cartBtn: null,
@@ -60,7 +65,8 @@ let products = {
         stock: '(88)'
     },
     5: {
-        image: '/docs/images/index/camera.png',
+        image: './images/index/camera.png',
+        imageCart: '../images/index/camera.png',
         name: 'CANON EOS DSLR Camera',
         rating: 4,
         cartBtn: null,
@@ -72,7 +78,8 @@ let products = {
         stock: '(95)'
     },
     6: {
-        image: '/docs/images/index/laptop.png',
+        image: './images/index/laptop.png',
+        imageCart: '../images/index/laptop.png',
         name: 'ASUS FHD Gaming Laptop',
         rating: 4.9,
         cartBtn: null,
@@ -84,7 +91,8 @@ let products = {
         stock: '(325)'
     },
     7: {
-        image: '/docs/images/index/curology.png',
+        image: './images/index/curology.png',
+        imageCart: '../images/index/curology.png',
         name: 'Curology Product Set',
         rating: 4.3,
         cartBtn: null,
@@ -96,7 +104,8 @@ let products = {
         stock: '(145)'
     },
     8: {
-        image: '/docs/images/index/electro-car.png',
+        image: './images/index/electro-car.png',
+        imageCart: '../images/index/electro-car.png',
         name: 'Kids Electric Car',
         rating: 4.83,
         cartBtn: null,
@@ -108,7 +117,8 @@ let products = {
         stock: '(65)'
     },
     9: {
-        image: '/docs/images/index/soccers.png',
+        image: './images/index/soccers.png',
+        imageCart: '../images/index/soccers.png',
         name: 'Jr. Zoom Soccer Cleats',
         rating: 5,
         cartBtn: null,
@@ -120,7 +130,8 @@ let products = {
         stock: '(35)'
     },
     10: {
-        image: '/docs/images/index/gamepad2.png',
+        image: './images/index/gamepad2.png',
+        imageCart: '../images/index/gamepad2.png',
         name: 'GP11 Shooter USB Gamepad',
         rating: 4.5,
         cartBtn: null,
@@ -132,7 +143,8 @@ let products = {
         stock: '(55)'
     },
     11: {
-        image: '/docs/images/index/jacket.png',
+        image: './images/index/jacket.png',
+        imageCart: '../images/index/jacket.png',
         name: 'Quilted Satin Jacket',
         rating: 4.13,
         cartBtn: null,

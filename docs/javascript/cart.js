@@ -16,7 +16,7 @@ for (let key in localStorage) {
         let block = document.createElement('div')
         block.classList.add('block')
         block.innerHTML = `
-            <img src="${product.image}">
+            <img src="${product.imageCart}">
             <h3>${product.name}</h3>
             <h4>${product.price.final} $</h4>
             <div class="amount-btns"> 
@@ -34,7 +34,7 @@ for (let key in localStorage) {
                 amount -= 1
                 finalSum -= product.price.final
                 productTotal = product.price.final * amount
-                block.querySelector('.product-total').innerHTML = productTotal
+                block.querySelector('.product-total').innerHTML = productTotal + ' $'
                 block.querySelector('.amount').innerHTML = amount
                 delivery = parseInt(finalSum * 0.1);
                 total = finalSum + delivery
@@ -49,7 +49,7 @@ for (let key in localStorage) {
             amount += 1
             finalSum += product.price.final
             productTotal = product.price.final * amount
-            block.querySelector('.product-total').innerHTML = productTotal
+            block.querySelector('.product-total').innerHTML = productTotal + ' $'
             block.querySelector('.amount').innerHTML = amount
 
             delivery = parseInt(finalSum * 0.1);
