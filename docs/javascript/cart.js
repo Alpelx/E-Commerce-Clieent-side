@@ -18,13 +18,13 @@ for (let key in localStorage) {
         block.innerHTML = `
             <img src="${product.image}">
             <h3>${product.name}</h3>
-            <h4>${product.price.final} mdl</h4>
+            <h4>${product.price.final} $</h4>
             <div class="amount-btns"> 
                 <button class="decrease">-</button>
                 <p class="amount">${amount}</p>
                 <button class="increase">+</button>
             </div>
-            <h4 class="product-total">${productTotal}</h4>
+            <h4 class="product-total">${productTotal} $</h4>
             <button class="remove">x</button>
         `
         block.querySelector('.amount-btns .decrease').addEventListener('click', () => {
@@ -39,9 +39,9 @@ for (let key in localStorage) {
                 delivery = parseInt(finalSum * 0.1);
                 total = finalSum + delivery
                 receipt.innerHTML = `
-                    <h3>Subtotal:</h3> <span>${finalSum} mdl</span>
-                    <h3>Livrare:</h3> <span>${delivery} mdl</span>
-                    <h2>Total:</h2> <span>${total} mdl</span>
+                    <h3>Subtotal:</h3> <span>${finalSum} $</span>
+                    <h3>Livrare:</h3> <span>${delivery} $</span>
+                    <h2>Total:</h2> <span>${total} $</span>
                 `
             }
         })
@@ -55,9 +55,9 @@ for (let key in localStorage) {
             delivery = parseInt(finalSum * 0.1);
             total = finalSum + delivery
             receipt.innerHTML = `
-                <h3>Subtotal:</h3> <span>${finalSum} mdl</span>
-                <h3>Livrare:</h3> <span>${delivery} mdl</span>
-                <h2>Total:</h2> <span>${total} mdl</span>
+                <h3>Subtotal:</h3> <span>${finalSum} $</span>
+                <h3>Livrare:</h3> <span>${delivery} $</span>
+                <h2>Total:</h2> <span>${total} $</span>
             `
         })
         block.querySelector('.remove').addEventListener('click', () => {
@@ -71,16 +71,16 @@ for (let key in localStorage) {
 delivery = parseInt(finalSum * 0.1);
 total = finalSum + delivery
 receipt.innerHTML = `
-    <h3>Subtotal:</h3> <span>${finalSum} mdl</span>
-    <h3>Livrare:</h3> <span>${delivery} mdl</span>
-    <h2>Total:</h2> <span>${total} mdl</span>
+    <h3>Subtotal:</h3> <span>${finalSum} $</span>
+    <h3>Livrare:</h3> <span>${delivery} $</span>
+    <h2>Total:</h2> <span>${total} $</span>
 `
 container.appendChild(receipt)
 
 let command = document.createElement('div')
 command.id = 'command'
 command.innerHTML = `
-    <button>Comanda</button>
+    <button>Command</button>
 `
 container.appendChild(command)
 command.querySelector('button').addEventListener('click', () => {
