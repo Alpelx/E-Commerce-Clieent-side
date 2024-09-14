@@ -1,6 +1,6 @@
 # E-Commerce Prototype
 
-## Table of contents
+## Navigation
 
 ### 1. [Project Overview](#1-project-overview)
 
