@@ -10,7 +10,7 @@
 
 ### 4. [Problem definition](./pages/problem-definition.md)
 
-### 5. [Website preview](https://alpelx.github.io/E-Commerce-Clieent-side/pages/cart.html)
+### 5. [Website preview](https://alpelx.github.io/E-Commerce-Clieent-side/)
 
 ### 6. [Conclusion](./pages/conclusion.md)
 
